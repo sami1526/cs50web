@@ -1,3 +1,5 @@
+<!-- MAIN SEARCH PAGE CSS COMPLETE -->
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -5,6 +7,7 @@
         <meta name="viewport" content="width-device-width, initial-scale-1.0">
         <meta http-equiv="x-UA-compatible" content="ie-edge">
         <link rel="stylesheet" href="search_page.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <title>Search</title>
     </head>
 
@@ -22,14 +25,19 @@
             <img src="./images/google.png" width="275px" alt="Google icon">
         </div>
 
-
-        <form class="form" action="https://www.google.com/search">
+        <form class="form" action="http://www.images.google.com/images">
+            <span id="search-icon" class="material-icons" >search</span>
             <input class="search-form" type="text" name="q">
+            <a id="mic-icon" href="#"><img src="./images/mic.png" width="25px" alt="mic"></a>
+            
             <div class="btn-bar">
                 <input class="btn" id="btn1" type="submit" value="Google Search">
                 <input class="btn" id="btn2" type="submit" value="I'm Feeling Lucky">
             </div>
+
         </form>
+
+
 
         <div class="lang">
             <p >Google offered in: <a href="#"> پښتو اردو سنڌي</a></p>
