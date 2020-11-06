@@ -8,7 +8,7 @@ a, ul {
 
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
     padding: 0px;
     margin: 0px;
@@ -119,56 +119,33 @@ p {
 footer li {
     display: inline-block;
     overflow: auto;
-    margin-left: 26px;
-   
 }
 
 
 .above-footer {
-    margin-left: -40px;
-    margin-bottom: 5px;
+    position: fixed;
+    bottom: 30px;
+    left: -10px;
     font-size: 15px;
-    
 
 }
 
 
 .l-footer, .r-footer {
 
-    /* position: fixed;
-    bottom: -7px; */
+    position: fixed;
+    bottom: -7px;
     font-size: 14px;
-    
   
 }
 
 .l-footer {
-    /* left: 0px; */
-    margin-left: -40px;
+    left: 0px;
+    margin-left: -12px;
 }
 
 .r-footer {
-    
+    right: 0px;
     margin-right: 26px;
-   
 }
 
-footer {
-    position: absolute;
-    bottom: 0px;
-    background-color: #f2f2f2;
-    border-top: 1px solid rgba(128, 128, 128, 0.1);
-    width: 100%;
-}
-
-.bottom-footer {
-
-
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-    width: 100%;
-    border-top: 1px solid rgba(128, 128, 128, 0.1);
-    margin-top: -3px;
-
-}
