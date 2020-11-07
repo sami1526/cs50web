@@ -85,6 +85,10 @@ form {
     
 }
 
+#camera-icon:hover, #mic-icon:hover, #r-search-icon:hover {
+    cursor: pointer;
+} 
+
 
 .form:focus, .form:hover {
     box-shadow: 1px 1px 5px grey;

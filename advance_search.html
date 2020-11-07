@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale-1.0">
+        <meta http-equiv="x-UA-compatible" content="ie-edge">
+        <link rel="stylesheet" href="advance_search.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <title>Advance Search</title>
+    </head>
+
+    <body>
+        <nav>
+            
+            <ul class="google-img">
+                <li><img src="./images/google.png" alt="google-icon" width="80px"></li>
+            </ul>
+
+            <ul class="nav-links">
+                <li><a id="google-search" href="search_page.html">Google Search</a></li>
+                <li><a id="image-search" href="image_search.html">Google Image Search</a></li>
+            </ul>
+            
+        </nav>  
+
+        <div class="heading">
+            <p>Advanced Search</p>
+        </div>
+
+        <form action="https://www.google.com/search">
+            <div class="field">
+                <span class="field-head">Find pages with...</span>
+                <span class="mid-field"></span>
+                <span>To do this in the search box.</span>
+            </div>
+
+            <div class="field">
+                <label for="all-words">all these words:</label>
+                <input class="mid-field" id="all-words" type="text" name="as_q">
+                <span>Type the important words: tri-colour rat terrier</span>
+            </div>
+
+            <div class="field">
+                <label for="exact-word">this exact word or phrase:</label>
+                <input class="mid-field" id="" type="text" name="as_epq">
+                <span>Put exact words in quotes: "rat terrier"</span>
+            </div>
+            
+            <div class="field">
+                <label for="any word">any of these words:</label>
+                <input class="mid-field" id="any word" type="text" name="as_oq">
+                <span>Type OR between all the words you want: miniature OR standard</span>
+            </div>
+
+            <div class="field">
+                <label for="none of these words">none of these words:</label>
+                <input class="mid-field" id="none of these words:" type="text" name="as_eq">
+                <span>Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</span>
+
+            </div>
+
+            <div class="field">
+                <label for="ranging">numbers ranging from: </label>
+                <input type="text" class="textinput1" id="ranging" value=""  name="as_nlo">
+                <span class="seperator">to</span>
+                <input type="text" class="textinput2" id="field5" value=""  name="as_nhi">
+                <span>Put two full stops between the numbers and add a unit of measurement: 10..35 kg, £300..£500, 2010..2011</span>
+            </div>
+            
+            
+           
+        </form>
+
+</html>

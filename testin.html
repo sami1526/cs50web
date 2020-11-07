@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale-1.0">
+        <meta http-equiv="x-UA-compatible" content="ie-edge">
+        <link rel="stylesheet" href="testing_.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <title>Advance Search</title>
+    </head>
+
+    <body>
+
+        <nav>
+            
+            <ul class="google-img">
+                <li><img src="./images/google.png" alt="google-icon" width="80px"></li>
+            </ul>
+
+            <ul class="nav-links">
+                <li><a id="google-search" href="search_page.html">Google Search</a></li>
+                <li><a id="image-search" href="image_search.html">Google Image Search</a></li>
+            </ul>
+            
+        </nav>  
+
+        <div class="heading">
+            <p>Advanced Search</p>
+        </div>
+
+        <form action="https://www.google.com/search">
+
+            <div id="l-field">
+                <div class="field1_">
+                    <span class="field-head">Find pages with...</span>
+                </div>
+                <div class="field1">
+                    <label for="all-words">all these words:</label>
+                   
+                </div>
+                <div class="field1">
+                    <label for="exact-word">this exact word or phrase:</label>
+    
+                </div>
+                <div class="field1">
+                    <label for="any word">any of these words:</label>
+                </div>
+                <div class="field1">
+                    <label for="none of these words">none of these words:</label>
+                </div>
+            </div>
+
+            <div id="m-field">
+                <div class="field2_">
+                    <span class="mid-field"><br></span>
+                    
+                </div>
+    
+                <div class="field2">
+                    <input class="mid-field" id="all-words" type="text" name="as_q">
+                    
+                </div>
+    
+                <div class="field2">
+                    <input class="mid-field" id="exact-word" type="text" name="as_epq">
+                   
+                </div>
+
+                <div class="field2">
+                    <input class="mid-field" id="any word" type="text" name="as_oq">
+                </div>
+
+                <div class="field2">
+                    <input class="mid-field" id="none of these words:" type="text" name="as_eq">
+                </div>
+
+            </div>
+
+            <div id="r-field">
+                <div class="field3_">
+                    <span>To do this in the search box.</span>
+                </div>
+    
+                <div class="field3">
+                    <span>Type the important words: tri-colour rat terrier</span>
+                </div>
+    
+                <div class="field3">
+                    <span>Put exact words in quotes: "rat terrier"</span>
+                </div>
+
+                <div class="field3">
+                    <span>Type OR between all the words you want: miniature OR standard</span>
+                </div>
+
+                <div class="field3">
+                    <span>Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</span>
+                </div>
+            </div>
+            
+        </form>
+
+</html>
