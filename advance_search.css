@@ -17,13 +17,13 @@ a, ul {
 
 nav li {
     display: inline;
-    font-size: 12px;
     margin-right: 10px;
+    font-size: 15px;
 }
 nav ul {
     margin-top: 10px;
-
 }
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -126,11 +126,11 @@ footer li {
 
 .above-footer {
     margin-bottom: 5px;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .l-footer {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 footer {
@@ -140,7 +140,8 @@ footer {
     border-top: 1px solid rgba(128, 128, 128, 0.1);
     width: 100%;
     margin-bottom: 10px;
-    padding-top: 10px;
+    padding-top: 12px;
+    padding-bottom: 5px;
 }
 
 .bottom-footer {
@@ -149,6 +150,7 @@ footer {
     /* justify-content: space-between; */
     width: 100%;
     border-top: 1px solid rgba(128, 128, 128, 0.1);
-    padding-top: 10px;
+    padding-top: 15px;
+    /* padding-bottom: 15px; */
 
 }

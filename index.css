@@ -23,6 +23,8 @@ nav li {
     display: inline;
     float: right; 
     margin: 10px 11px;
+    font-size: 15px;
+    
     
 }
 
@@ -138,7 +140,6 @@ footer li {
 }
 
 .l-footer {
-    /* left: 0px; */
     margin-left: -40px;
 }
 
