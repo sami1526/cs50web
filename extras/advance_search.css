@@ -51,34 +51,3 @@ form {
 .field-head  {
     font-size: 16px;
 }
-
-
-
-form {
-    margin: 42px 30px 30px 30px;
-    display: flex;
-    flex-direction: row;
-}
-
-
-.field1, .field2, .field3 {
-    margin-top: 30px;
-    color: blue;
-}
-
-
-#l-field {
-    margin-right: 45px;
-}
-
-
-.mid-field {
-    height: 23px;
-    width: 575px;
-}
-
-#r-field span {
-
-    font-size: 10px;
-
-}

@@ -22,7 +22,6 @@ nav li {
     display: inline;
     float: right; 
     margin: 10px 11px;
-    
 }
 
 
@@ -46,7 +45,6 @@ form {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .search-form {
@@ -66,7 +64,6 @@ form {
     font-size:20px;
     color: rgba(128, 128, 128, 0.7);
     margin-left: 0px;
-   
 }
 
 #camera-icon {
@@ -82,7 +79,6 @@ form {
 
     font-size:23px;
     color: #4285f4;
-    
 }
 
 #camera-icon:hover, #mic-icon:hover, #r-search-icon:hover {
@@ -140,7 +136,6 @@ footer li {
     display: inline-block;
     overflow: auto;
     margin-left: 26px;
-   
 }
 
 
@@ -148,18 +143,12 @@ footer li {
     margin-left: -40px;
     margin-bottom: 5px;
     font-size: 15px;
-    
-
+    padding-bottom: 5px;
 }
 
 
 .l-footer, .r-footer {
-
-    /* position: fixed;
-    bottom: -7px; */
     font-size: 14px;
-    
-  
 }
 
 .l-footer {
@@ -168,10 +157,9 @@ footer li {
 }
 
 .r-footer {
-    
     margin-right: 26px;
-   
 }
+
 
 footer {
     position: absolute;
@@ -181,9 +169,8 @@ footer {
     width: 100%;
 }
 
+
 .bottom-footer {
-
-
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
